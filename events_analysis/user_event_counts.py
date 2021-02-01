@@ -1,9 +1,8 @@
 # Part 1 - Number of times each user triggered each event
-
-import input_data
+from input_data import INPUT_DATA
 
 # Initial dataset
-dataset = input_data.INPUT_DATA
+dataset = INPUT_DATA
 
 # Final dataset that will contain counts of events per user
 event_count = {}
